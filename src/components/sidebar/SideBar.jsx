@@ -29,16 +29,17 @@ const SideBar = () => {
 
         {/* Divider */}
         <hr className="sidebar-divider" />
-
         <NavItem to='/users' itemName='Users' icon='fa-users' />
+        <hr className="sidebar-divider" />
+
         <NavItem to='/blogs' itemName='Blogs' icon='fa-book' />
+        <hr className="sidebar-divider" />
+
+        <NavItem to='/siswa' itemName='Siswa' icon='fa-school' />
+        <hr className="sidebar-divider" />
 
 
-    
 
-
-
-      <hr className="sidebar-divider d-none d-md-block" />
       {/* Sidebar Toggler (Sidebar) */}
       <div className="text-center d-none d-md-inline">
         <button className="rounded-circle border-0" id="sidebarToggle" onClick={()=>{

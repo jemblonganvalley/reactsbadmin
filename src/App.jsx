@@ -4,11 +4,10 @@ import './App.css';
 import {  BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import LoginPage from './components/pages/login/LoginPage'
 import RegisterPage from './components/pages/register/RegisterPage'
-import SideBar from './components/sidebar/SideBar';
-import TopNavbar from './components/navbar/TopNavbar';
 import DashBoard from './components/pages/dasboard/DashBoard';
 import UsersPage from './components/pages/users/UsersPage';
 import BlogsPage from './components/pages/blogs/Blogs';
+import SiswaPage from './components/pages/siswaPage/SiswaPage';
 
 function App() {
   return (
@@ -17,7 +16,17 @@ function App() {
       <Router>
 
         <Switch>
-        <Route path='/blogs'>
+
+          <Route path='/siswa'>
+            <DashBoard>
+
+              <SiswaPage />
+
+            </DashBoard>
+          </Route>
+
+
+          <Route path='/blogs'>
               <DashBoard>
                 <BlogsPage/>
               </DashBoard>

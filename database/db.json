@@ -1,0 +1,15 @@
+{
+  "mahasiswa": [
+    {
+      "nik": "009",
+      "nama_depan": "fadli",
+      "nama_belakang": "asdf",
+      "email": "fadliselaz@gmail.com",
+      "alamat": "depok",
+      "phone": "98977654533",
+      "semester": "2",
+      "avatar": "https://picsum.photos/seed/sss/300",
+      "id": 1
+    }
+  ]
+}
